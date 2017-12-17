@@ -28,6 +28,8 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
     6.) renaming a file : mv text.txt text2.txt  
     7.) listing hidden files : ls -a   
     8.) copying a file from one directory to another : cp biopic/cleo.txt historical/  
+    9.) list all files in long format by time modified : ls -alt  
+    10.) select all files in working directory : cp * satire/
 
 ---
 
