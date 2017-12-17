@@ -23,7 +23,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > 1.) show current working directory path : pwd  
     2.) creating a directory : mkdir  
     3.) deleting a directory : rm -r  
-    4.) creating a file using `touch` command : touch textfile.txt
+    4.) creating a file using `touch` command : touch textfile.txt  
     5.) deleting a file : rm  
     6.) renaming a file : mv text.txt text2.txt  
     7.) listing hidden files : ls -a   
@@ -38,7 +38,7 @@ What do the following commands do:
 `ls -a`  : list all files (including hidden files) and directories
 `ls -l`  : list all file and directories in long format  
 `ls -lh` :  print sizes in human readable form in long format 
-`ls -lah`  print files (including hidden files) in human readable form in long format
+`ls -lah`  print files (including hidden files) in human readable form in long format  
 `ls -t`  : order files and directories by time they were last modified  
 `ls -Glp`  : list files and directories but does not include owner in long format and includes parent directories as needed
 
