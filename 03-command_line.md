@@ -63,8 +63,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 > > It is a command that converts input from standard input into arguments into a command. For example:  
-  
-find /tmp -mtime +14 | xargs rm : This will find files that are more than 2 weeks old in the temp file and then pipe them into xargs command to be removed.
+  find /tmp -mtime +14 | xargs rm : This will find files that are more than 2 weeks old in the temp file and then pipe them into xargs       command to be removed.
 
  
 
