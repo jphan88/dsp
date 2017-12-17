@@ -37,10 +37,10 @@ What do the following commands do:
 `ls`  : lists all files and directories  
 `ls -a`  : list all files (including hidden files) and directories
 `ls -l`  : list all file and directories in long format  
-`ls -lh` :  
-`ls -lah`  
-`ls -t`  : order files and directories by time they were last modified
-`ls -Glp`  
+`ls -lh` :  print sizes in human readable form in long format 
+`ls -lah`  print files (including hidden files) in human readable form in long format
+`ls -t`  : order files and directories by time they were last modified  
+`ls -Glp`  : list files and directories but does not include owner in long format and includes parent directories as needed
 
 
 
