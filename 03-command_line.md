@@ -20,22 +20,29 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 1.) show current working directory path : pwd  
+    2.) creating a directory : mkdir  
+    3.) deleting a directory : rm -r  
+    4.) creating a file using `touch` command : touch textfile.txt
+    5.) deleting a file : rm  
+    6.) renaming a file : mv text.txt text2.txt  
+    7.) listing hidden files : ls -a   
+    8.) copying a file from one directory to another : cp biopic/cleo.txt historical/  
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
+`ls`  : lists all files and directories  
+`ls -a`  : list all files (including hidden files) and directories
+`ls -l`  : list all file and directories in long format  
+`ls -lh` :  
 `ls -lah`  
-`ls -t`  
+`ls -t`  : order files and directories by time they were last modified
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+
 
 ---
 
@@ -43,7 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 1.) -g  
+    2.) -1  
+    3.) -x  
+    4.) -F  
+    5.) -d  
 
 ---
 
@@ -51,7 +62,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > It is a command that converts input from standard input into arguments into a command. For example:  
+  
+find /tmp -mtime +14 | xargs rm : This will find files that are more than 2 weeks old in the temp file and then pipe them into xargs command to be removed.
 
  
 
